@@ -1,5 +1,7 @@
 package arraysandstrings;
 
+
+
 public class IsRotation
 {
 	/**
@@ -11,8 +13,10 @@ public class IsRotation
 		if(s1.length() == s2.length() && s1.length() > 0)
 		{
 			String ss = s1 + s1;
-			return isSubstring(ss, s2);
+			return ss.contains(s2);
 		}
 		return false;
 	}
+	
+	
 }
