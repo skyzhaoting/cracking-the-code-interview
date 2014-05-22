@@ -4,6 +4,7 @@ public class UniquePathsII
 {
 	/**
 	 * 有障碍的UniquePaths
+	 * 注意初始化的方法
 	 */
 	public int uniquePathsWithObstacles(int[][] obstacleGrid)
 	{
